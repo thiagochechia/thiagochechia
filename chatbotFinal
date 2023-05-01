@@ -1,0 +1,3 @@
+from chatbot2 import *
+def chatbot():
+    return(chatbot)
