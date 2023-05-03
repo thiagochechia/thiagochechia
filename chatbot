@@ -9,11 +9,11 @@ def area_do_aluno():
             area_do_aluno()
             
     if resposta == "1":
-            print("https://aluno.resilia.work/dashboard , seu atendimento sera reiniciado, aperte 4 no menu principal se deseja sair")
+            print("https://aluno.resilia.work/dashboard , seu atendimento sera automaticamente reiniciado, aperte 4 no menu principal se deseja sair")
     elif resposta == "2":
-            print("www.discord.com/turmavamoai/dicaseutilidades , seu atendimento sera reiniciado, aperte 4 no menu principal se deseja sair")
+            print("www.discord.com/turmavamoai/dicaseutilidades , seu atendimento sera automaticamente reiniciado, aperte 4 no menu principal se deseja sair")
     elif resposta == "3":
-            print("www.discord.com/turmavamoai/comunicados , seu atendimento sera reiniciado, aperte 4 no menu principal se deseja sair")
+            print("www.discord.com/turmavamoai/comunicados , seu atendimento sera automaticamente reiniciado, aperte 4 no menu principal se deseja sair")
     elif resposta == "4":
             return #retorna ao menu principal 
     else:
@@ -45,7 +45,7 @@ def ajuda():
             
 
 def nossos_contatos():
-    print("Bem-vindo aos Nossos Contatos. PFV digite o numero referente a sua opcao abaixo")
+    print("Bem-vindo aos Nossos Contatos. Digite o numero referente a sua opcao abaixo")
     resposta = input("\n1. Endereco\n2. Telefone\n3. Email\n4. Voltar ao menu anterior\n")
     
     try:
@@ -69,7 +69,7 @@ def nossos_contatos():
 
 def menu():
     while True:
-        print("Bem-vindo ao Chatbot do seu Curso IFOOD/RESILIA . PFV digite o numero referente a sua opcao abaixo ?")
+        print("Bem-vindo ao Chatbot de Whatsapp do seu Curso VAMOAI/ IFOOD/ RESILIA . Digite o numero referente a sua opcao abaixo ?")
         resposta = input("\n1. Área do Aluno\n2. Ajuda\n3. Nossos Contatos\n4. Sair\n")
 
         try:
@@ -93,3 +93,12 @@ def menu():
 menu()
 
 
+#while True:
+       # resposta_continuar = input("Você gostaria de continuar no atendimento? (s/n)\n")
+      #  if resposta_continuar.lower() == "s":
+       #     break
+       # elif resposta_continuar.lower() == "n":
+       #         print("Obrigado por usar o ChatBot. Até logo!")
+       #     return
+     #   else:
+        #        print("Desculpe, não entendi sua resposta. Por favor, tente novamente.")
