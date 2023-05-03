@@ -1,7 +1,6 @@
 def area_do_aluno():
     print("Bem-vindo à Área do Aluno. PFV digite o numero referente a sua opcao abaixo")
     resposta = input("1. Meu Curso\n2. Dicas e utilidades \n3. Comunicados\n4. Voltar\n")
-    
     try:
             int(resposta)  # tenta converter a resposta para um número inteiro
     except ValueError:  # se a conversão falhar, significa que o usuário não inseriu um número
@@ -27,8 +26,8 @@ def ajuda():
     resposta = input("1. Monitoria\n2. Painel de Duvidas\n3. F.A.Q.\n4. Voltar ao Menu anterior\n")
     
     try:
-            int(resposta)  # tenta converter a resposta para um número inteiro
-    except ValueError:  # se a conversão falhar, significa que o usuário não inseriu um número
+            int(resposta) 
+    except ValueError:  
             print("Desculpe, sua resposta deve ser um número. Por favor, tente novamente.")
             ajuda()
 
@@ -49,8 +48,8 @@ def nossos_contatos():
     resposta = input("Endereco\n2. Telefone\n3. Email\n4. Voltar ao menu anterior\n")
     
     try:
-            int(resposta)  # tenta converter a resposta para um número inteiro
-    except ValueError:  # se a conversão falhar, significa que o usuário não inseriu um número
+            int(resposta)  
+    except ValueError:  
             print("Desculpe, sua resposta deve ser um número. Por favor, tente novamente.")
             nossos_contatos()
             
@@ -73,8 +72,8 @@ def menu():
         resposta = input("1. Área do Aluno\n2. Ajuda\n3. Fale Conosco\n4. Sair\n")
 
         try:
-            int(resposta)  # tenta converter a resposta para um número inteiro
-        except ValueError:  # se a conversão falhar, significa que o usuário não inseriu um número
+            int(resposta)  
+        except ValueError:  
             print("Desculpe, sua resposta deve ser apenas um número. Por favor, tente novamente.")
             continue  # continua o loop while
         
@@ -93,12 +92,4 @@ def menu():
 menu()
 
 
-#while True:
-       # resposta_continuar = input("Você gostaria de continuar no atendimento? (s/n)\n")
-      #  if resposta_continuar.lower() == "s":
-       #     break
-       # elif resposta_continuar.lower() == "n":
-       #         print("Obrigado por usar o ChatBot. Até logo!")
-       #     return
-     #   else:
-        #        print("Desculpe, não entendi sua resposta. Por favor, tente novamente.")
+
