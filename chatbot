@@ -23,7 +23,7 @@ def area_do_aluno():
     
 def ajuda():
     print("Bem-vindo à Ajuda. PFV digite o numero referente a sua opcao abaixo")
-    resposta = input("1. Monitoria\n2. Painel de Duvidas\n3. F.A.Q.\n4. Voltar ao Menu anterior\n")
+    resposta = input("\n1. Monitoria\n2. Painel de Duvidas\n3. F.A.Q.\n4. Voltar ao Menu anterior\n")
     
     try:
             int(resposta) 
