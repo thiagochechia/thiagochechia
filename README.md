@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @thiagochechia, https://www.linkedin.com/in/thiagochechia007/   ,     
-- 👀 I’m interested in ...
+- 👋 Hi, I’m @thiagochechia, https://www.linkedin.com/in/thiagochechia   ,     
+- 👀 I’m interested in Java,libraries frameworks React Angular Excel,Power BI,Web Development,
 - 🌱 I’m currently learning Python, Html5 , Java Script,CSS3,C++,SQL,Visual Basic,Access
-- 💞️ I’m looking to collaborate on ...
+- 💞️ I’m looking to collaborate on social projects to help the people to be free .
 - 📫 How to reach me = email ==     thiagochechia@me.com
 
 <!---
