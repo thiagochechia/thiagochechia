@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @thiagochechia, https://www.linkedin.com/in/thiagochechia007/   ,     
 - 👀 I’m interested in ...
-- 🌱 I’m currently learning Python, Html3 , Java Script,CSS5,C++,SQL,Visual Basic,Access
+- 🌱 I’m currently learning Python, Html5 , Java Script,CSS3,C++,SQL,Visual Basic,Access
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me = email ==     thiagochechia@me.com
 
