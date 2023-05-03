@@ -7,11 +7,11 @@ def area_do_aluno():
             print("Desculpe, sua resposta deve ser um número. Por favor, tente novamente.")
             area_do_aluno()
     if resposta == "1":
-            print("https://aluno.resilia.work/dashboard , seu atendimento sera reiniciado, aperte 4 no menu principal se deseja sair")
+            print("https://aluno.resilia.work/dashboard , seu atendimento sera reiniciado, digite 4 no menu principal se deseja sair")
     elif resposta == "2":
-            print("www.discord.com/turmavamoai/dicaseutilidades , seu atendimento sera reiniciado, aperte 4 no menu principal se deseja sair")
+            print("www.discord.com/turmavamoai/dicaseutilidades , seu atendimento sera reiniciado, digite 4 no menu principal se deseja sair")
     elif resposta == "3":
-            print("www.discord.com/turmavamoai/comunicados , seu atendimento sera reiniciado, aperte 4 no menu principal se deseja sair")
+            print("www.discord.com/turmavamoai/comunicados , seu atendimento sera reiniciado, digite 4 no menu principal se deseja sair")
     elif resposta == "4":
             return #retorna ao menu principal 
     else:
@@ -25,11 +25,11 @@ def ajuda():
             print("Desculpe, sua resposta deve ser um número. Por favor, tente novamente.")
             ajuda()
     if resposta == "1":
-            print("www.discord.com/turmavamoai/monitoria , seu atendimento sera reiniciado, aperte 4 no menu principal se deseja sair.")
+            print("www.discord.com/turmavamoai/monitoria , seu atendimento sera reiniciado, digite 4 no menu principal se deseja sair.")
     elif resposta == "2":
-            print("www.discord.com/turmavamoai/paineldeduvidas , seu atendimento sera reiniciado, aperte 4 no menu principal se deseja sair.")
+            print("www.discord.com/turmavamoai/paineldeduvidas , seu atendimento sera reiniciado, digite 4 no menu principal se deseja sair.")
     elif resposta == "3":
-            print("www.discord.com/turmavamoai/faq , seu atendimento sera reiniciado, aperte 4 no menu principal se deseja sair")
+            print("www.discord.com/turmavamoai/faq , seu atendimento sera reiniciado, digite 4 no menu principal se deseja sair")
     elif resposta == "4":
         return
     else:
@@ -43,11 +43,11 @@ def nossos_contatos():
             print("Desculpe, sua resposta deve ser um número. Por favor, tente novamente.")
             nossos_contatos()
     if resposta == "1":
-            print("Rua vergueiro xx00x , seu atendimento sera reiniciado, aperte 4 no menu principal se deseja sair")
+            print("Rua vergueiro xx00x , seu atendimento sera reiniciado, digite 4 no menu principal se deseja sair")
     elif resposta == "2":
-            print("O número de telefone é +55113050xx56 , seu atendimento sera reiniciado, aperte 4 no menu principal se deseja sair ")
+            print("O número de telefone é +55113050xx56 , seu atendimento sera reiniciado, digite 4 no menu principal se deseja sair ")
     elif resposta == "3":
-            print("atendimento@resilia.com.br , seu atendimento sera reiniciado, aperte 4 no menu principal se deseja sair")
+            print("atendimento@resilia.com.br , seu atendimento sera reiniciado, digite no menu principal se deseja sair")
     elif resposta == "4":
         return
     else:
